@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="panier.css">
+</head>
+<body>
+<div class="container">
+    <h1>panier</h1>
+    <div class="panier">
+        <table >
+           <tr> <th>nom de l'article</th> <th>quantité</th> <th>prix unitaire</th> <th class="sous">Sous total</th></tr>
+           <tbody>
+           <tr>
+                <td class='case1'>
+                    <strong>sac de riz</strong>
+                    <div class='bouton supprimer'><strong>supprimer</strong></div>
+                    
+                </td> 
+                <td class="case2">
+                    <button class='less'>-</button> <input type="text" class='qty' value='1'>  <button class='plus' >+</button>
+
+
+                </td> 
+                <td class='price'> 
+                15000
+
+                </td>
+                 <td class='subtotal'>
+                    15000</td>
+            </tr>
+
+           </tbody>
+        </table>
+        <div class="footer">
+            <div class="products"><input type="text" placeholder="votre arcticle" class="name"></div>
+            <div class="products_price"><input type="number" class="priceProduct" ></div>
+            <div class="add_button" >ajouter un article</div>
+        </div>
+    </div>
+    <div class="total">
+        <h4>Total :</h4>  <div class="total_price"  ><h4>0 fr cfa </h4></div>
+
+    </div>
+   
+</div>
+
+
+
+    <script src="panier.js"></script>
+    
+</body>
+</html>
